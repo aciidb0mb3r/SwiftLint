@@ -10,6 +10,14 @@
   `Configuration(path:rootPath:optional:quiet:)`.  
   [JP Simard](https://github.com/jpsim)
 
+* The static function `Configuration.rulesFromDict(_:ruleList:)` has been moved
+  to an instance method: `RuleList.configuredRulesWithDictionary(_:)`.  
+  [JP Simard](https://github.com/jpsim)
+
+* The `rules` parameter in the `Configuration` initializer has been renamed to
+  `configuredRules`.  
+  [JP Simard](https://github.com/jpsim)
+
 ##### Enhancements
 
 * `swiftlint lint` now accepts an optional `--reporter` parameter which
@@ -24,6 +32,11 @@
   [#386](https://github.com/realm/SwiftLint/issues/386)
 
 ##### Bug Fixes
+
+* A warning will now be logged when invalid top-level keys are included in the
+  configuration file.  
+  [JP Simard](https://github.com/jpsim)
+  [#120](https://github.com/realm/SwiftLint/issues/120)
 
 ## 0.8.0: High Heat
 
