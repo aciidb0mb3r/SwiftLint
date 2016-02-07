@@ -21,6 +21,11 @@
   [JP Simard](https://github.com/jpsim)
   [#466](https://github.com/realm/SwiftLint/issues/466)
 
+* Fixed `LegacyConstructorRule` from correcting legacy constructors in string
+  literals.  
+  [JP Simard](https://github.com/jpsim)
+  [#466](https://github.com/realm/SwiftLint/issues/466)
+
 ## 0.8.0: High Heat
 
 ##### Breaking
